@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <div class="calculator">
+        <div class="calculadora">
+            <img src="image/Calculadora.png" alt="">
+        </div>
+        <div class="display" id="display">
+            <!--donde se mostrara todo--->
+            <div id="contenedor-text">
+                <h1>0</h1>
+            </div>
+        </div>
+        <div class="contenedor botones">
+            <img id="boton1" onclick="clearDisplay()" src="image/ON.png" alt="#">
+            <img id="boton2" onclick="changeSign()" src="image/sign.png" alt="#">
+            <img id="boton3" onclick="sqrt()" src="image/raiz.png" alt="#">
+            <img id="boton4" onclick="appendToDisplay('/')" src="image/dividido.png" alt="#">
+            <img id="boton5" onclick="appendToDisplay('7')" src="image/7.png" alt="#">
+            <img id="boton6" onclick="appendToDisplay('8')" src="image/8.png" alt="#">
+            <img id="boton7" onclick="appendToDisplay('9')" src="image/9.png" alt="#">
+            <img id="boton8" onclick="appendToDisplay('*')" src="image/por.png" alt="#">
+            <img id="boton9" onclick="appendToDisplay('4')" src="image/4.png" alt="#">
+            <img id="boton10" onclick="appendToDisplay('5')" src="image/5.png" alt="#">
+            <img id="boton11" onclick="appendToDisplay('6')" src="image/6.png" alt="#">
+            <img id="boton12" onclick="appendToDisplay('-')" src="image/menos.png" alt="#">
+            <img id="boton13" onclick="appendToDisplay('1')" src="image/1.png" alt="uno">
+            <img id="boton14" onclick="appendToDisplay('2')" src="image/2.png" alt="#">
+            <img id="boton15" onclick="appendToDisplay('3')" src="image/3.png" alt="#">
+            <div class="boton-grande">
+                <img id="boton19" onclick="appendToDisplay('+')" src="image/mas.png" alt="#" class="dobleFila">
+            </div>
+            <img id="boton16" onclick="appendToDisplay('0')" src="image/0.png" alt="#">
+            <img id="boton17" onclick="appendToDisplay('.')" src="image/punto.png" alt="#">
+            <img id="boton18" onclick="calculateResult()" src="image/igual.png" alt="#">
+        </div>
+    </div>
+    <script src="js/calculadora.js"></script>
+</body>
+
+</html>

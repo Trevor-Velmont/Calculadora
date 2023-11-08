@@ -1,0 +1,191 @@
+/*estilo de letra*/
+@font-face {
+    font-family: letra-calculadora;
+    src: url(../digital.ttf);
+}
+
+body {
+    font-family: letra-calculadora, serif;
+    background-image: url(../image/fondo.jpg);
+    background-repeat: no-repeat;
+}
+/*
+#Calculadora {
+    text-align: center;
+    position: relative;
+}
+
+#Calculadora img {
+    width: 600px;
+    height: 640px;
+}
+*/
+.calculadora{
+    text-align: center;
+    position: relative;
+}
+.calculadora img{
+    width: 600px;
+    height: 640px;
+}
+/*Botones*/
+.botones img{
+    width: 98px;
+    height: 60px;
+}
+.boton-grande img{
+    width: 98px;
+    height: 140px;
+}
+
+#boton1{
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-left: 433px;
+    margin-top: 220px;
+}
+#boton2{
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-left: 560px;
+    margin-top: 221px;
+}
+#boton3{
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-left: 690px;
+    margin-top: 221px;
+}
+#boton4{
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-left: 820px;
+    margin-top: 221px;
+}
+#boton5{
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-left: 430px;
+    margin-top: 300px;
+}
+#boton6{
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-left: 562px;
+    margin-top: 300px;
+}
+#boton7{
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-left: 692px;
+    margin-top: 299px;
+}
+#boton8{
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-left: 820px;
+    margin-top: 300px;
+}
+#boton9{
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-left: 432px;
+    margin-top: 377px;
+}
+#boton10{
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-left: 560px;
+    margin-top: 376px;
+}
+#boton11{
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-left: 690px;
+    margin-top: 377px;
+}
+#boton12{
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-left: 820px;
+    margin-top: 377px;
+}
+#boton13{
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-left: 431px;
+    margin-top: 453px;
+}
+#boton14{
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-left: 561px;
+    margin-top: 453px;
+}
+#boton15{
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-left: 690px;
+    margin-top: 453px;
+}
+#boton16{
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-left: 432px;
+    margin-top: 531px;
+}
+#boton17{
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-left: 562px;
+    margin-top: 531px;
+}
+#boton18{
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-left: 692px;
+    margin-top: 530px;
+}
+#boton19{
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-left: 819px;
+    margin-top: 452px;
+}
+
+.display{
+    background-image: url(../image/fondoCalc.png);
+    width: 479px;
+    height: 107px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-top: 48px; margin-left: 435px;
+}
+#display h1{
+    font-size: 50px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-left: 10px; margin-top: 30px;
+   
+}
